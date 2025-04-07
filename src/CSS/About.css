@@ -1,0 +1,57 @@
+.about-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.about-title {
+    color: #1976D2;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carousel-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.carousel-button {
+    background-color: #1976D2;
+    color: white;
+}
+
+.carousel-dots {
+    margin-top: 15px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #1976D2;
+}

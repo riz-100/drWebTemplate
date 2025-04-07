@@ -1,0 +1,21 @@
+.footer {
+    background-color: #1976D2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100vw;
+    position: relative; /* Allows the footer to move with the page */
+    bottom: 0;
+    margin-top: auto;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}

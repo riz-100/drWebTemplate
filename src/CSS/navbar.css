@@ -1,0 +1,28 @@
+.navbar {
+    width: "100vw" !important;
+    position: "static" !important; 
+}
+
+.navbar-title {
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-button {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        display: none;
+    }
+    .menu-button {
+        display: block !important; /* Show menu button */
+    }
+
+}

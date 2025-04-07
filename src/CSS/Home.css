@@ -1,0 +1,32 @@
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+    background-image: url("/images/clinic-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.home-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.home-text {
+    font-size: 1.2rem;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 1.5rem;
+    }
+    .home-text {
+        font-size: 1rem;
+    }
+}
